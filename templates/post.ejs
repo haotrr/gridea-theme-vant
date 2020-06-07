@@ -19,7 +19,7 @@
                 <div class="layout-post-body">
                   <div class="row">
 
-                    <div class="col-12 col-lg-10">
+                    <div class="col-12 col-lg-9">
                       <div class="layout-post-main m-right m-md-right">
                         <div class="layout-post-header">
                           <h1 class="layout-post-title"><%= post.title %></h1>
@@ -36,10 +36,10 @@
                         </div>
                         <div class="layout-post-content">
                           <div class="layout-post-item">
-                            <% if (themeConfig.showFeatureImage && post.feature) { %>
+                            <!-- <% if (themeConfig.showFeatureImage && post.feature) { %>
                             <p class="with-img"><img src="<%= post.feature %>"
                                 class="attachment-full size-full wp-post-image" alt="<%= post.title %>" /></p>
-                            <% } %>
+                            <% } %> -->
                             <%- post.content %>
                           </div>
                         </div>
@@ -259,7 +259,7 @@
                       </div>
                     </div>
 
-                    <div class="col-12 col-lg-2 d-none d-lg-block">
+                    <div class="col-12 col-lg-3 d-none d-lg-block">
                       <div class="layout-post-sidebar">
                         <div class="layout-sidebar-item">
                           <%- post.toc %>

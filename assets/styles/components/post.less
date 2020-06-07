@@ -108,7 +108,7 @@
   display: flex;
   margin: 1em auto;
   max-width: 100%;
-  min-width: 100%;
+  // min-width: 100%;
   border-radius: 4px;
   background-color: @main-bg;
   -webket-transition: all .3s ease-out;
@@ -221,7 +221,7 @@
   &.fixed-top {
     position: fixed;
     top: 24px;
-    max-width: 120px;
+    //max-width: 120px;
   }
 }
 
@@ -334,6 +334,8 @@
             &:active {
               h4 {
                 color: @main;
+                line-height: 1.0;
+                margin: -5px 0 0 0;
               }
             }
 
@@ -343,6 +345,8 @@
               color: @main-black;
               text-overflow: ellipsis;
               white-space: nowrap;
+              line-height: 1.0;
+              margin: -5px 0 0 0;
             }
           }
         }
@@ -359,9 +363,11 @@
 
             p {
               overflow: hidden;
-              white-space: nowrap;
+              //white-space: nowrap;
               text-overflow: ellipsis;
               margin: 0.5rem 0;
+              font-size: 13px;
+              line-height: 1.4;
             }
 
             photo {
